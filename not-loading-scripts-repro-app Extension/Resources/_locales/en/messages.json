@@ -1,10 +1,10 @@
 {
     "extension_name": {
-        "message": "not-loading-scripts-repro-app Extension",
+        "message": "demo-extension",
         "description": "The display name for the extension."
     },
     "extension_description": {
-        "message": "This is not-loading-scripts-repro-app Extension. You should tell us what your extension does here.",
+        "message": "This is demo-extension. You should tell us what your extension does here.",
         "description": "Description of what the extension does."
     }
 }
