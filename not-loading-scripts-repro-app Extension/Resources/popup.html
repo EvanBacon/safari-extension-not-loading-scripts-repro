@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+    <script type="module" src="popup.js"></script>
+    <!-- Required for external network requests -->
+       <meta http-equiv="Content-Security-Policy" content="
+                               default-src * data: blob: ws: wss: gap://ready file://*;
+                               style-src * 'unsafe-inline';
+                               script-src 'self' https://unpkg.com;
+                               connect-src * ws: wss:;">
+                               
+</head>
+<body>
+    <strong>Hello World!</strong>
+
+    <script src="https://unpkg.com/jquery@3.6.0/dist/jquery.js"></script>
+
+</body>
+</html>

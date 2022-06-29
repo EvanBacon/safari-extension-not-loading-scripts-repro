@@ -1,0 +1,18 @@
+//
+//  SceneDelegate.swift
+//  not-loading-scripts-repro-app
+//
+//  Created by Jamie Birch on 28/06/2022.
+//
+
+import UIKit
+
+class SceneDelegate: UIResponder, UIWindowSceneDelegate {
+
+    var window: UIWindow?
+
+    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+        guard let _ = (scene as? UIWindowScene) else { return }
+    }
+
+}
